@@ -1,9 +1,6 @@
 /*
  * Problema 1: Escaleras (Programación Dinámica)
  *
- * Un personaje sube una escalera de N escalones avanzando 1 o 2 escalones
- * por movimiento. Se calcula de cuántas formas distintas puede llegar
- * exactamente al escalón N.
  *
  * Estado DP   : dp[i] = número de formas de llegar exactamente al escalón i.
  * Recurrencia : dp[i] = dp[i-1] + dp[i-2]      (para i >= 2)
