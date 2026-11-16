@@ -20,7 +20,7 @@
 #include <stdexcept>
 
 ResultadoMonedas cambioMinimo(std::vector<int> monedas, int cantidad) {
-    // ---- Validación de la entrada ----
+    
     if (cantidad < 0 || cantidad > CANTIDAD_MAX) {
         throw std::invalid_argument("La cantidad debe estar entre 0 y " +
                                     std::to_string(CANTIDAD_MAX) + ".");
