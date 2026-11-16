@@ -2,8 +2,6 @@
 
 Este proyecto resuelve dos problemas clásicos usando **programación dinámica**, una técnica que consiste en no repetir trabajo: se resuelven primero los problemas pequeños, se guardan los resultados en una tabla y con ellos se arma la respuesta del problema grande.
 
-Está hecho en **C++17**, sin librerías externas.
-
 ## Los dos problemas
 
 ### 1. Escaleras
